@@ -3,6 +3,15 @@ Keith's Github reminders
 In the PS window, you can do the following:
 #>
 
+<# Key concepts
+git <command> will give the current status of an item.
+examples: 
+  git branch shows current branches & the current active branch
+  git remote shows the name of the current remote 
+
+
+#>
+
 # this creates a local copy of the URL you were working with
 cd C:\GitHub
 git clone <url> 
