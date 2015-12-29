@@ -33,9 +33,10 @@ git push --all --repo=https://github.com/jkeithbworkin/NewGitTest.git --dry-run
 FIGURED OUT WHY THIS WON'T WORK! 
 It doesn't work inside the ISE.
 Switch to PS shell & it will prompt. 
-Had to use the GUI to get the login & pw
+From the ISE, have to to use the GUI to get the login & pw
 #>
 git-gui.exe
+
 <# 
 Quick way to Add all the modified files
 #>
@@ -60,3 +61,24 @@ git log --oneline
 # Git diff will show what has changed. Modifications will be at the bottom
 git diff
 
+
+<# CLONING
+Within a folder where you want to put a repo, use git clone <url> to
+. Create a local folder named for the online repo
+. Copy all the files from the online repo to that folder
+. Set the branch locally to be the branch of the original
+#>
+cd C:\GitHub
+git clone https://github.com/PowerShell/PowerShell-Docs
+
+<# BRANCHING
+A branch is basically a tag that exists locally, until you push it
+You create the branch from inside the folder that is the local repo copy
+git branch with no name lists branches
+git branch <name> creates a branch of that name
+git checkout <branch name> makes that branch the active branch
+#>
+cd .\PowerShell-Docs
+Git branch 
+Git branch local_1
+Git checkout 
