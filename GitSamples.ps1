@@ -30,6 +30,9 @@ To get them posted to the git repo this local repo came from, use the command be
 <#
 this command didnt work
 git push --all --repo=https://github.com/jkeithbworkin/NewGitTest.git --dry-run
+FIGURED OUT WHY THIS WON'T WORK! 
+It doesn't work inside the ISE.
+Switch to PS shell & it will prompt. 
 Had to use the GUI to get the login & pw
 #>
 git-gui.exe
