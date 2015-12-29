@@ -39,10 +39,17 @@ Quick way to Add all the modified files
 git status
 pause
 git add -A
+# note that you can do the same thing with "git add . "
 git commit -a -m "Adding the push dry run info, and the current note that I have to use the GUI to get the pw prompt"
 
 # still using gitgui to push
-
+git-gui.exe
 <#
 noted the demo uses "esc:wq". This gets someone out of the git prompt status.
+
+Git log tells what changes were made by whom
 #>
+git log
+
+# Git diff will show what has changed. Modifications will be at the bottom
+git diff
