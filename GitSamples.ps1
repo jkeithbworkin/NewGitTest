@@ -46,10 +46,14 @@ git commit -a -m "Adding the push dry run info, and the current note that I have
 git-gui.exe
 <#
 noted the demo uses "esc:wq". This gets someone out of the git prompt status.
+It may be that Shift +zz (aka: ZZ) is required
 
 Git log tells what changes were made by whom
 #>
 git log
+# for a brief version, try
+git log --oneline
 
 # Git diff will show what has changed. Modifications will be at the bottom
 git diff
+
