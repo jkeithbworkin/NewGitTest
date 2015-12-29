@@ -32,13 +32,16 @@ this command didnt work
 git push --all --repo=https://github.com/jkeithbworkin/NewGitTest.git --dry-run
 Had to use the GUI to get the login & pw
 #>
-gitgui.exe
+git-gui.exe
 <# 
 Quick way to Add all the modified files
 #>
+git status
+pause
 git add -A
 git commit -a -m "Adding the push dry run info, and the current note that I have to use the GUI to get the pw prompt"
 
+# still using gitgui to push
 
 <#
 noted the demo uses "esc:wq". This gets someone out of the git prompt status.
